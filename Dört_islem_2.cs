@@ -32,9 +32,11 @@ if (secim == "+") {
    if (sayi2==0){
       ok = false;
       Console.WriteLine("Bölen 0 olamaz");
-   }
-   sonuc = sayi1 / sayi2;  
-} else {
+   } else {
+      sonuc = sayi1 / sayi2;  
+   } 
+}
+else {
    //yanlış seçim,
    ok = false;
    Console.WriteLine("yanliş seçim tekrar deneyin");
@@ -42,7 +44,6 @@ if (secim == "+") {
 if (ok){
 Console.WriteLine($"{sayi1} {secim} {sayi2} = {sonuc}");
 }
-
 
 
 
