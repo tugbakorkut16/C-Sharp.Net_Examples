@@ -29,6 +29,10 @@ if (secim == "+") {
    sonuc = sayi1 * sayi2;
 } else if (secim =="/") {
    //bölme
+   if (sayi2==0){
+      ok = false;
+      Console.WriteLine("Bölen 0 olamaz");
+   }
    sonuc = sayi1 / sayi2;  
 } else {
    //yanlış seçim,
